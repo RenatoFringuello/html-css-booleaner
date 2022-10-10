@@ -21,12 +21,12 @@ ul{
     position: absolute;
     bottom: 0;
     left:0;
-    width:280px;
+    width: 12.7em;
     margin:0 0 0.7em 0.4em;
 }
 
 /* --------------------------- MAIN ---------------------------- */
-main{
+.padding{
     padding: 1.2rem 0.4em 0.7em 0.4em;
 }
 
@@ -45,13 +45,22 @@ article .title{
     text-decoration: none;
     color:#00abe3;
 }
+
+/* background */
 .highlighted{
     background-color:yellow;
+}
+.bg-coralblue{
+    background-color: #00abe3;
+    color:white;
 }
 
 /* margin */
 .margin-bottom{
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.3em;
+}
+.small-margin-bottom{
+    margin-bottom: 0.5em;
 }
 
 /* img */
@@ -72,10 +81,20 @@ th{
 td{
     min-width: 15em;
 }
-.bg-blue1{
-    background-color: #00abe3;
-    color:white;
+
+/* article card */
+.card{
+    width: 12em;
+    height: 9em;
+    color: white;
+    padding: 0.4em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.bg-blue2{
-    background-color: #00abe3;
+#pcArticle{
+    background-image: url("../img/monitor.jpg");
+}
+#dataArticle{
+    background-image: url("../img/graph.jpg");
 }
