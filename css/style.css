@@ -2,17 +2,18 @@
     margin:0;
     padding:0;
 }
+/* --------------------------- HEADER ---------------------------- */
 #main-header{
-    height:8em;
+    height:9em;
     background: rgb(55, 148, 255) url("../img/pattern.png") ;
-    background-size: 33em;
-    background-position: 94px -8px;
+    background-size: 39em;
+    background-position: 102px -13px;
     position:relative;
 }
 #main-logo{
     position: absolute;
     bottom: 0;
     left:0;
-    width:16em;
+    width:18em;
     margin:0 0 1em 0.5em;
 }
