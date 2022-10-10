@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-size: 22px;
+}
+/* ul disc reset */
+ul{
+    padding-left:1em;
+}
+a{
+    text-decoration: none;
+}
+/* --------------------------- HEADER ---------------------------- */
+#main-header{
+    height:6.5em;
+    background: #3794ff url("../img/pattern.png") ;
+    background-size: 25.5em;
+    background-position: 4.5em 0px;
+    position:relative;
+}
+#main-logo{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width: 12.7em;
+    margin:0 0 0.7em 0.4em;
+}
+
+/* --------------------------- MAIN ---------------------------- */
+.padding{
+    padding: 1.2rem 0.4em 0.7em 0.4em;
+}
+
+/* text style */
+article .title{
+    font-size: 2.4em;
+}
+.small-font{
+    font-size: 0.7em;
+}
+.text-gray{
+    color:#aaa;
+}
+.link,
+.link:visited{
+    text-decoration: none;
+    color:#00abe3;
+}
+
+/* background */
+.highlighted{
+    background-color:yellow;
+}
+.bg-coralblue{
+    background-color: #00abe3;
+    color:white;
+}
+
+/* margin */
+.margin-bottom{
+    margin-bottom: 1.3em;
+}
+.small-margin-bottom{
+    margin-bottom: 0.5em;
+}
+
+/* img */
+.img-size{
+    height:22.5em;
+}
+
+/* table */
+table{
+    border-collapse: collapse;
+}
+tbody > tr:nth-child(odd){
+    background-color: #a7e9ff;
+}
+th,td{
+    padding-left:20px;
+}
+th{
+    text-align: start;
+}
+td{
+    min-width: 15em;
+}
+
+/* social */
+
+.social ul{
+    padding: 0;
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    margin-right:0.5em;
+}
+.social img{
+    width: 2em;
+}
+
+/* article card */
+#main-footer{
+    background-color: #333;
+}
+
+.card{
+    display: inline-block;
+    width: calc(100% / 5 - 1em);
+    height: 9em;
+    color: white;
+    padding: 0.4em;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pcArticle, #main-footer :nth-child(even) .card{
+    background-image: url("../img/monitor.jpg");
+}
+#dataArticle, #main-footer :nth-child(odd) .card{
+    background-image: url("../img/graph.jpg");
+}
+
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
