@@ -5,7 +5,7 @@
 /* --------------------------- HEADER ---------------------------- */
 #main-header{
     height:9em;
-    background: rgb(55, 148, 255) url("../img/pattern.png") ;
+    background: #3794ff url("../img/pattern.png") ;
     background-size: 39em;
     background-position: 102px -13px;
     position:relative;
@@ -16,4 +16,37 @@
     left:0;
     width:18em;
     margin:0 0 1em 0.5em;
+}
+
+/* --------------------------- MAIN ---------------------------- */
+main{
+    padding: 1.5em 0.5em;
+}
+
+/* article's header */
+article header{
+    margin-bottom: 2em;
+}
+
+article .title{
+    font-size: 3.8rem;
+}
+.medium-font{
+    font-size: 1.7rem;
+}
+.small-font{
+    font-size: 1.1rem;
+}
+.text-gray{
+    color:#888;
+}
+.link,
+.link:visited{
+    text-decoration: none;
+    color:#00abe3;
+}
+
+/* aricle's img section */
+.img-size{
+    height:580px;
 }
