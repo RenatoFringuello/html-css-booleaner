@@ -9,6 +9,9 @@ body{
 ul{
     padding-left:1em;
 }
+a{
+    text-decoration: none;
+}
 /* --------------------------- HEADER ---------------------------- */
 #main-header{
     height:6.5em;
