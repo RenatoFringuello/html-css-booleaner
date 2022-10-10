@@ -3,8 +3,16 @@
     padding:0;
 }
 #main-header{
-    border:1px solid red;
+    height:8em;
+    background: rgb(55, 148, 255) url("../img/pattern.png") ;
+    background-size: 33em;
+    background-position: 94px -8px;
+    position:relative;
 }
 #main-logo{
-    width:17rem;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    width:16em;
+    margin:0 0 1em 0.5em;
 }
