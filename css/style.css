@@ -1,0 +1,10 @@
+*{
+    margin:0;
+    padding:0;
+}
+#main-header{
+    border:1px solid red;
+}
+#main-logo{
+    width:17rem;
+}
